@@ -1,0 +1,36 @@
+
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?","wassup","sup" ],
+     "responses": ["I.m Jarvis, your bot assistant", "I'm Jarvis, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Jarvis.", "I'm Jarvis!", "Just call me as jarvis"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "contact",
+    "patterns": ["how do i contact your creator", "how to contact ur creator?", "can i contact ur creator", "can you connect me to ur creator","how else can i connect with ur creator","how else can i contact ur creator"],
+    "responses": ["You can just easily connect by his website https://pc-website.netlify.app/ ", "u can mail him : charithcherry1100@gmail.com"]
+    },
+    {"tag": "information",
+     "patterns": ["what does ur creator do", "what is he currently doing", "does ur creator live in bangalore", "is ur creator working", "is ur creator studying"],
+     "responses": ["AR Intern at tvishtryon", "AI/ML enthusiasts, student AT DSCE bangalore", "currently studying in DSCE, bangalore"]
+    }
+]
+}
